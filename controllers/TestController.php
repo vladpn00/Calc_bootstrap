@@ -23,7 +23,7 @@ class TestController extends Controller
         {
             return $model->calc();
         }
-        else
+        elseif (!$req->isAjax)
         {
             return $this->render('test', ['model' => $model]);
 
