@@ -25,6 +25,6 @@ class Calc
     }
     public static function division($x, $y)
     {
-        return $x / $y;
+        return round(($x / $y), 4);
     }
 }

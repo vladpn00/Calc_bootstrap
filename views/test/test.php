@@ -25,7 +25,7 @@ $this->title = 'Test';
     </div>
     <div class="col-lg-4"></div>
     </div>
-
+    
 <div class="row">
     <div class="col-lg-2">
         <?= $form->field($model, 'x')->textInput(['maxlength' => 3, ]) ?>
